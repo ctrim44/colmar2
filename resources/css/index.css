@@ -34,6 +34,11 @@ h3 {
 	}
 }
 
+.offset {
+	position: relative;
+	top: 3rem;
+}
+
 /*Fixed Header*/
 
 .fixed {
@@ -41,6 +46,10 @@ h3 {
 	align-items: center;
 	padding: .25rem 0;
 	background-color: yellow;
+	position: fixed;
+	height: 3rem;
+	width: 100%;
+	z-index: 2;
 }
 
 .logo {
@@ -119,16 +128,53 @@ nav li {
 }
 
 .banner1_text h1 {
-	padding-bottom: 1rem;
+	padding-bottom: 1.5rem;
 }
 
 .banner1_text h2 {
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 }
 
 .banner1_text p {
-	padding: .5rem 2rem;
+	display: inline-block;
+	padding: .5rem 1.5rem;
 	background-color: red;
 	color: white;
 	font-size: 1.5rem;
+}
+
+/*second banner section*/
+
+.banner2 {
+	padding: 2rem 1.5rem;
+	width: 100%;
+}
+
+.banner2_lrg_info {
+	width: 60%;
+	padding-right: 1.5rem;
+}
+
+.banner2_lrg_info img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 2rem;
+}
+
+.banner2_lrg_info h2 {
+	padding-bottom: 1.5rem;
+}
+
+.banner2_lrg_info p {
+	padding-bottom: 2rem;
+}
+
+.banner2_boxes {
+	flex-direction: column;
+	width: 40%;
+}
+
+.info_boxes img {
+	width: 35%;
+	height: auto;
 }
