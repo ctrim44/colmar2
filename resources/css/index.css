@@ -147,7 +147,7 @@ nav li {
 
 .banner2 {
 	padding: 2rem 1.5rem;
-	width: 100%;
+	max-width: 100%;
 }
 
 .banner2_lrg_info {
@@ -171,10 +171,26 @@ nav li {
 
 .banner2_boxes {
 	flex-direction: column;
-	width: 40%;
+	max-width: 40%;
+}
+
+.info_boxes {
+	padding: .5rem;
+	align-items: center;
+	margin-bottom: .5rem;
+	background-color: gray;
 }
 
 .info_boxes img {
 	width: 35%;
 	height: auto;
+	padding-right: .5rem;
+}
+
+.info_boxes_text h3 {
+	padding-bottom: 1rem;
+}
+
+.info_boxes_text p {
+	padding-bottom: .75rem;
 }
