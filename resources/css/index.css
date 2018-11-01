@@ -78,3 +78,22 @@ nav li {
 	height: 3rem;
 	width: auto;
 }
+
+/*first banner*/
+
+.banner1 {
+	padding: 2rem 1.5rem;
+	align-items: center;
+}
+
+.banner1_text h1 {
+	padding-bottom: 1rem;
+}
+
+.banner1_text h2 {
+	padding-bottom: 1rem;
+}
+
+.banner1_text p {
+	padding: .5rem 3rem;
+}
