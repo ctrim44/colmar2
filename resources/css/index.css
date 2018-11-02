@@ -194,3 +194,30 @@ nav li {
 .info_boxes_text p {
 	padding-bottom: .75rem;
 }
+
+/*Third Banner Section*/
+
+.banner3 {
+	padding: 2rem 4rem;
+	background-color: blue;
+}
+
+.banner3 h1 {
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.learning_boxes {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.learning_single_box {
+	max-width: 30%;
+	height: auto;
+}
+
+.learning_single_box img {
+	width: 100%;
+	height: auto;
+}
