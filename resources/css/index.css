@@ -78,9 +78,7 @@ nav li {
 }
 
 .icons {
-	justify-content: space-between;
-	padding: .5rem;
-	background-color: orange;
+	justify-content: space-around;
 }
 
 .icons img{
@@ -99,7 +97,7 @@ nav li {
 @media only screen and (max-width: 900px) {
 	.banner1 {
 		flex-direction: column;
-		padding: 2rem 0;
+		padding: 1rem 0;
 	}
 }
 
@@ -191,8 +189,20 @@ nav li {
 	padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 900px) {
+	.info_boxes_text h3 {
+		font-size: 1.15rem;
+	}
+}
+
 .info_boxes_text p {
 	padding-bottom: .75rem;
+}
+
+@media only screen and (max-width: 900px) {
+	.info_boxes_text p {
+		font-size: .85rem;
+	}
 }
 
 /*Third Banner Section*/
@@ -215,9 +225,54 @@ nav li {
 .learning_single_box {
 	max-width: 30%;
 	height: auto;
+	background-color: orange;
+	margin-bottom: 1rem;
 }
 
 .learning_single_box img {
 	width: 100%;
 	height: auto;
+}
+
+.learning_single_box h3 {
+	padding-bottom: .5rem;
+}
+
+.learning_single_box p {
+	padding-top: .5rem;
+}
+
+.learning_text {
+	padding: 1rem;
+}
+
+/*fourth banner section*/
+
+.banner4 h1 {
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.banner4 {
+	padding: 2rem 1.5rem;
+	background-color: green;
+}
+
+.banner4_content {
+	width: 100%;
+}
+
+.banner4_vid_content {
+	max-width: 60%;
+	height: auto;
+	padding-right: 1.5rem;
+}
+
+.banner4_vid_content video {
+	max-width: 100%;
+	padding-bottom: 1.5rem;
+}
+
+.banner4_vid_content h2 {
+	padding-bottom: .5rem;
 }
