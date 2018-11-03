@@ -34,6 +34,20 @@ h3 {
 	}
 }
 
+@media only screen and (max-width: 480px) {
+	.mobile_hide {
+		display: none;
+	}
+
+	.mobile
+}
+
+@media only screen and (min-width: 480px) {
+	.mobile_show {
+		display: none;
+	}
+}
+
 .offset {
 	position: relative;
 	top: 3rem;
@@ -86,6 +100,13 @@ nav li {
 	width: auto;
 }
 
+@media only screen and (max-width: 480px) {
+	.icons img {
+		height: 2rem;
+		width: auto;
+	}
+}
+
 /*first banner*/
 
 .banner1 {
@@ -129,8 +150,20 @@ nav li {
 	padding-bottom: 1.5rem;
 }
 
+@media only screen and (max-width: 480px) {
+	.banner1_text h1 {
+		font-size: 2rem;
+	}
+}
+
 .banner1_text h2 {
 	padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+	.banner1_text h2 {
+		font-size: 1.25rem;
+	}
 }
 
 .banner1_text p {
@@ -141,11 +174,23 @@ nav li {
 	font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 480px) {
+	.banner1_text p {
+		padding: .5rem 3rem;
+	}
+}
+
 /*second banner section*/
 
 .banner2 {
 	padding: 2rem 1.5rem;
 	max-width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+	.banner2 {
+		padding: 2rem .25rem;
+	}
 }
 
 .banner2_lrg_info {
@@ -180,7 +225,7 @@ nav li {
 }
 
 .info_boxes img {
-	width: 35%;
+	max-width: 35%;
 	height: auto;
 	padding-right: .5rem;
 }
@@ -205,11 +250,46 @@ nav li {
 	}
 }
 
+.banner2_mobile {
+	width: 100%;
+}
+
+.banner2_mobile_boxes {
+	margin-bottom: .5rem;
+	background-color: gray;
+	padding: .5rem;
+}
+
+.banner2_mobile_boxes img {
+	max-width: 100%;
+	padding-bottom: 1rem;
+}
+
+.banner2_mobile_boxes h3 {
+	padding-bottom: .75rem;
+}
+
+.banner2_mobile_boxes p {
+	padding-bottom: .75rem;
+}
+
+.banner2_mobile_boxes h3,
+.banner2_mobile_boxes p,
+.banner2_mobile_boxes span {
+	padding-left: .75rem;
+}
+
 /*Third Banner Section*/
 
 .banner3 {
 	padding: 2rem 4rem;
 	background-color: blue;
+}
+
+@media only screen and (max-width: 480px) {
+	.banner3 {
+		padding: 2rem .5rem;
+	}
 }
 
 .banner3 h1 {
@@ -238,12 +318,35 @@ nav li {
 	padding-bottom: .5rem;
 }
 
+@media only screen and (max-width: 900px) {
+	.learning_single_box h3 {
+		font-size: 1rem;
+	}
+}
+
 .learning_single_box p {
 	padding-top: .5rem;
 }
 
+@media only screen and (max-width: 900px) {
+	.learning_single_box p,
+	.learning_single_box span {
+		font-size: .75rem;
+	}
+}
+
 .learning_text {
 	padding: 1rem;
+}
+
+.learning_mobile p {
+	text-align: center;
+	font-size: 1.5rem;
+	padding: .75rem 0;
+	width: 100%;
+	background-color: pink;
+	margin-bottom: .5rem;
+	border-radius: 3px;
 }
 
 /*fourth banner section*/
@@ -253,9 +356,21 @@ nav li {
 	text-align: center;
 }
 
+@media only screen and (max-width: 480px) {
+	.banner4 h1 {
+		padding-bottom: 1rem;
+	}
+}
+
 .banner4 {
 	padding: 2rem 1.5rem;
 	background-color: green;
+}
+
+@media only screen and (max-width: 480px) {
+	.banner4 {
+		padding: 2rem 0;
+	}
 }
 
 .banner4_content {
@@ -275,4 +390,8 @@ nav li {
 
 .banner4_vid_content h2 {
 	padding-bottom: .5rem;
+}
+
+.mobile_video video {
+	width: 100%;
 }
